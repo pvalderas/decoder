@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: DecoderProcessServer
+    
+server:
+  port: 8081
+  
+decoder:
+  defaultProcessID: decoderProcess
+  pkmURL: http://localhost:5001/decoder/toolSpecs
+  
